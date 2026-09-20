@@ -1,0 +1,5 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+Dataset/card_transactions.csv filter=lfs diff=lfs merge=lfs -text
+Dataset/transactions.csv filter=lfs diff=lfs merge=lfs -text
+Excel/Bank.xlsx filter=lfs diff=lfs merge=lfs -text
