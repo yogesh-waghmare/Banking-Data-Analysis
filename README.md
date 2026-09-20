@@ -60,7 +60,7 @@ Source: a synthetic, relational **BankCorp** dataset (documented in `Data/README
 ```
 Banking_data_analysis/
 │
-├── Data/                        # 10 banking tables (Git LFS) + dataset README
+├── Dataset/                        # 10 banking tables (Git LFS) + dataset README
 │   ├── branches.csv
 │   ├── employees.csv
 │   ├── customers.csv
@@ -71,13 +71,19 @@ Banking_data_analysis/
 │   ├── card_transactions.csv
 │   ├── transactions.csv
 │   ├── support_tickets.csv
-│  └── README.md
+│
+├── Excel/                       # Supplementary workbook
+│   ├── Bank.xlsx
+│   └── Dashbored Image.png
+│
+├── Power bi/                    # Dashboard file + page exports
+│   ├── Dashbored.pbix
+│   └── 1.png ... 8.png
 │
 ├── Schema/
-│   ├── Database_Schema.drawio      # Editable database schema
 │   ├── Database_Schema.drawio.png  # Schema preview image
 │   └── Database_Schema.drawio.svg  # High-quality vector diagram
-│ 
+│
 ├── Sql/                         # Schema + 10 business-question scripts
 │   ├── Schema.sql
 │   ├── 01_KPI_Analysis.sql
@@ -91,18 +97,11 @@ Banking_data_analysis/
 │   ├── 09_Risk_Analysis.sql
 │   └── 10_Advanced_SQL.sql
 │
-
-├── Power bi/                    # Dashboard file + page exports
-│   ├── Dashbored.pbix
-│   └── 1.png ... 8.png
-│
-├── Excel/                       # Supplementary workbook
-│   ├── Bank.xlsx
-│   └── Dashbored Image.png
-│
+├── gitattributes
+├── gitignore
 ├── Project Report.docx          # Full project report
-├── Summary.md                   # One-page project summary
 ├── README.md                    # Readme
+├── Summary.md                   # One-page project summary
 └── Work Flow.png                # End-to-end pipeline diagram
 ```
 
